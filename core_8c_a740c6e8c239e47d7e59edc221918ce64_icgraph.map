@@ -1,0 +1,7 @@
+<map id="merge_x" name="merge_x">
+<area shape="rect" id="node1" title="合并X方向的元素" alt="" coords="528,5,607,32"/>
+<area shape="rect" id="node2" href="$core_8h.html#ae51c3f35648c7ffc7d5158e921ee244e" title="在X方向上移动元素." alt="" coords="405,5,480,32"/>
+<area shape="rect" id="node3" href="$game_8h.html#ad2d47142ba9e822639bb8da8a68c5f31" title="本函数处理并绑定键盘操作" alt="" coords="247,5,357,32"/>
+<area shape="rect" id="node4" href="$game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画" alt="" coords="108,5,199,32"/>
+<area shape="rect" id="node5" href="$game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,60,32"/>
+</map>

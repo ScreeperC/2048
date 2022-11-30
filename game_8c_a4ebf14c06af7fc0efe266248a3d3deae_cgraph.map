@@ -1,0 +1,5 @@
+<map id="button_action" name="button_action">
+<area shape="rect" id="node1" title="处理 &#39;New Game&#39; 的按钮操作。" alt="" coords="5,31,116,57"/>
+<area shape="rect" id="node2" href="$core_8c.html#a1f7a8949c839960fa20989f8eab4c8a6" title="向矩阵的随机位置添加一个值为1的值。" alt="" coords="165,5,267,32"/>
+<area shape="rect" id="node3" href="$core_8c.html#aab8569d2ebd3490f475e52f2b5bca620" title="清空矩阵" alt="" coords="164,56,268,83"/>
+</map>

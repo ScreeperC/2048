@@ -1,0 +1,5 @@
+<map id="display_text" name="display_text">
+<area shape="rect" id="node1" title="矩形框内居中绘制黑色文本" alt="" coords="5,31,108,57"/>
+<area shape="rect" id="node2" href="$game_8c.html#af33bfda60e57fefff8b247c4a08d92e3" title="矩形框内居中绘制文本" alt="" coords="156,5,243,32"/>
+<area shape="rect" id="node3" href="$game_8c.html#ab2c805f3fdadb0d569d82376ff16419a" title="清除窗口" alt="" coords="160,56,239,83"/>
+</map>

@@ -1,0 +1,1085 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <meta name="generator" content="Doxygen 1.8.17" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Project: core.c 文件参考</title>
+  <link href="tabs.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="dynsections.js"></script>
+  <link href="navtree.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="resize.js"></script>
+  <script type="text/javascript" src="navtreedata.js"></script>
+  <script type="text/javascript" src="navtree.js"></script>
+  <link href="search/search.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="search/searchdata.js"></script>
+  <script type="text/javascript" src="search/search.js"></script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+  <script type="text/javascript" async="async"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js"></script>
+  <link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="top">
+    <!-- do not remove this div, it is closed by doxygen! -->
+    <div id="titlearea">
+      <table cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr style="height: 56px;">
+            <td id="projectalign" style="padding-left: 0.5em;">
+              <div id="projectname">My Project
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- end header part -->
+    <!-- 制作者 Doxygen 1.8.17 -->
+    <script type="text/javascript">
+      /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+      var searchBox = new SearchBox("searchBox", "search", false, '搜索');
+/* @license-end */
+    </script>
+    <script type="text/javascript" src="menudata.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
+    <script type="text/javascript">
+      /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+      $(function () {
+        initMenu('', true, false, 'search.php', '搜索');
+        $(document).ready(function () { init_search(); });
+      });
+/* @license-end */</script>
+    <div id="main-nav"></div>
+  </div><!-- top -->
+  <div id="side-nav" class="ui-resizable side-nav-resizable">
+    <div id="nav-tree">
+      <div id="nav-tree-contents">
+        <div id="nav-sync" class="sync"></div>
+      </div>
+    </div>
+    <div id="splitbar" style="-moz-user-select:none;" class="ui-resizable-handle">
+    </div>
+  </div>
+  <script type="text/javascript">
+    /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+    $(document).ready(function () { initNavTree('core_8c.html', ''); initResizable(); });
+/* @license-end */
+  </script>
+  <div id="doc-content">
+    <!-- window showing the filter options -->
+    <div id="MSearchSelectWindow" onmouseover="return searchBox.OnSearchSelectShow()"
+      onmouseout="return searchBox.OnSearchSelectHide()" onkeydown="return searchBox.OnSearchSelectKey(event)">
+    </div>
+
+    <!-- iframe showing the search results (closed by default) -->
+    <div id="MSearchResultsWindow">
+      <iframe src="javascript:void(0)" frameborder="0" name="MSearchResults" id="MSearchResults">
+      </iframe>
+    </div>
+
+    <div class="header">
+      <div class="summary">
+        <a href="#func-members">函数</a>
+      </div>
+      <div class="headertitle">
+        <div class="title">core.c 文件参考</div>
+      </div>
+    </div>
+    <!--header-->
+    <div class="contents">
+
+      <p>游戏核心代码
+        <a href="#details">更多...</a>
+      </p>
+      <div class="textblock"><code>#include &lt;stdlib.h&gt;</code><br />
+        <code>#include &lt;time.h&gt;</code><br />
+        <code>#include &lt;math.h&gt;</code><br />
+        <code>#include &quot;<a class="el" href="core_8h_source.html">./include/core.h</a>&quot;</code><br />
+      </div>
+      <div class="textblock">
+        <div class="dynheader">
+          core.c 的引用(Include)关系图:</div>
+        <div class="dyncontent">
+          <div class="center"><img src="core_8c__incl.png" border="0" usemap="#core_8c" alt="" /></div>
+          <map name="core_8c" id="core_8c">
+            <area shape="rect" title="游戏核心代码" alt="" coords="147,5,209,32" />
+            <area shape="rect" title=" " alt="" coords="5,80,76,107" />
+            <area shape="rect" title=" " alt="" coords="101,80,165,107" />
+            <area shape="rect" title=" " alt="" coords="189,80,257,107" />
+            <area shape="rect" href="core_8h.html" title="包含游戏核心声明的头文件" alt="" coords="281,80,403,107" />
+            <area shape="rect" title=" " alt="" coords="309,155,375,181" />
+          </map>
+        </div>
+      </div>
+      <p><a href="core_8c_source.html">浏览源代码.</a></p>
+      <table class="memberdecls">
+        <tr class="heading">
+          <td colspan="2">
+            <h2 class="groupheader"><a name="func-members"></a>
+              函数</h2>
+          </td>
+        </tr>
+        <tr class="memitem:aab8569d2ebd3490f475e52f2b5bca620">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="core_8c.html#aab8569d2ebd3490f475e52f2b5bca620">clear_matrix</a> (unsigned char matrix[][<a
+              class="el" href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>])</td>
+        </tr>
+        <tr class="memdesc:aab8569d2ebd3490f475e52f2b5bca620">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">清空矩阵 <a href="core_8c.html#aab8569d2ebd3490f475e52f2b5bca620">更多...</a><br /></td>
+        </tr>
+        <tr class="separator:aab8569d2ebd3490f475e52f2b5bca620">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:a6b38638513ffc6b882a896164d472b8b">
+          <td class="memItemLeft" align="right" valign="top">int&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="core_8c.html#a6b38638513ffc6b882a896164d472b8b">calculate_score</a> (unsigned char matrix[][<a
+              class="el" href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>])</td>
+        </tr>
+        <tr class="memdesc:a6b38638513ffc6b882a896164d472b8b">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">分数计算 <a href="core_8c.html#a6b38638513ffc6b882a896164d472b8b">更多...</a><br /></td>
+        </tr>
+        <tr class="separator:a6b38638513ffc6b882a896164d472b8b">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:a069bf556cb9abb4c011e79a8e2208737">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="core_8c.html#a069bf556cb9abb4c011e79a8e2208737">print_matrix</a> (unsigned char matrix[][<a
+              class="el" href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>], FILE *stream)</td>
+        </tr>
+        <tr class="memdesc:a069bf556cb9abb4c011e79a8e2208737">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">写入矩阵 <a href="core_8c.html#a069bf556cb9abb4c011e79a8e2208737">更多...</a><br /></td>
+        </tr>
+        <tr class="separator:a069bf556cb9abb4c011e79a8e2208737">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:a1f7a8949c839960fa20989f8eab4c8a6">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="core_8c.html#a1f7a8949c839960fa20989f8eab4c8a6">add_random</a> (unsigned char matrix[][<a class="el"
+              href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>])</td>
+        </tr>
+        <tr class="memdesc:a1f7a8949c839960fa20989f8eab4c8a6">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">向矩阵的随机位置添加一个值为1的值。 <a
+              href="core_8c.html#a1f7a8949c839960fa20989f8eab4c8a6">更多...</a><br /></td>
+        </tr>
+        <tr class="separator:a1f7a8949c839960fa20989f8eab4c8a6">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:a63fab7d374b01bd85297485e9f6d09ec">
+          <td class="memItemLeft" align="right" valign="top"><a class="el"
+              href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a>&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="core_8c.html#a63fab7d374b01bd85297485e9f6d09ec">is_game_over</a> (unsigned char matrix[][<a
+              class="el" href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>])</td>
+        </tr>
+        <tr class="memdesc:a63fab7d374b01bd85297485e9f6d09ec">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">检查棋盘上是否还有可能的移动。 <a
+              href="core_8c.html#a63fab7d374b01bd85297485e9f6d09ec">更多...</a><br /></td>
+        </tr>
+        <tr class="separator:a63fab7d374b01bd85297485e9f6d09ec">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:a9f2a400c6ed1ba5e8a7b6e2832bcd8aa">
+          <td class="memItemLeft" align="right" valign="top"><a class="el"
+              href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a>&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="core_8c.html#a9f2a400c6ed1ba5e8a7b6e2832bcd8aa">shift_x</a> (unsigned char matrix[][<a class="el"
+              href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>], <a class="el"
+                                                                                  href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a> opp)</td>
+        </tr>
+        <tr class="memdesc:a9f2a400c6ed1ba5e8a7b6e2832bcd8aa">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">在X方向上移动矩阵。 <a href="core_8c.html#a9f2a400c6ed1ba5e8a7b6e2832bcd8aa">更多...</a><br />
+          </td>
+        </tr>
+        <tr class="separator:a9f2a400c6ed1ba5e8a7b6e2832bcd8aa">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:a740c6e8c239e47d7e59edc221918ce64">
+          <td class="memItemLeft" align="right" valign="top"><a class="el"
+              href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a>&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="core_8c.html#a740c6e8c239e47d7e59edc221918ce64">merge_x</a> (unsigned char matrix[][<a class="el"
+              href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>], <a class="el"
+                                                                                  href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a> opp)</td>
+        </tr>
+        <tr class="memdesc:a740c6e8c239e47d7e59edc221918ce64">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">合并X方向的元素 <a href="core_8c.html#a740c6e8c239e47d7e59edc221918ce64">更多...</a><br /></td>
+        </tr>
+        <tr class="separator:a740c6e8c239e47d7e59edc221918ce64">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:a26174ee10f1a775e2b01caf2651bd1b1">
+          <td class="memItemLeft" align="right" valign="top"><a class="el"
+              href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a>&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="core_8c.html#a26174ee10f1a775e2b01caf2651bd1b1">merge_y</a> (unsigned char matrix[][<a class="el"
+              href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>], <a class="el"
+                                                                                  href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a> opp)</td>
+        </tr>
+        <tr class="memdesc:a26174ee10f1a775e2b01caf2651bd1b1">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">合并Y方向的元素 <a href="core_8c.html#a26174ee10f1a775e2b01caf2651bd1b1">更多...</a><br /></td>
+        </tr>
+        <tr class="separator:a26174ee10f1a775e2b01caf2651bd1b1">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:a47d12115c591faffc1370615c3022314">
+          <td class="memItemLeft" align="right" valign="top"><a class="el"
+              href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a>&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="core_8c.html#a47d12115c591faffc1370615c3022314">shift_y</a> (unsigned char matrix[][<a class="el"
+              href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>], <a class="el"
+                                                                                  href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a> opp)</td>
+        </tr>
+        <tr class="memdesc:a47d12115c591faffc1370615c3022314">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">在Y方向上移动矩阵。 <a href="core_8c.html#a47d12115c591faffc1370615c3022314">更多...</a><br />
+          </td>
+        </tr>
+        <tr class="separator:a47d12115c591faffc1370615c3022314">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:aabdfe10f7aedf2e889c636791206ca61">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="core_8c.html#aabdfe10f7aedf2e889c636791206ca61">move_y</a> (unsigned char matrix[][<a class="el"
+              href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>], <a class="el"
+                                                                                  href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a> opp)</td>
+        </tr>
+        <tr class="memdesc:aabdfe10f7aedf2e889c636791206ca61">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">在Y方向上移动元素. <a href="core_8c.html#aabdfe10f7aedf2e889c636791206ca61">更多...</a><br />
+          </td>
+        </tr>
+        <tr class="separator:aabdfe10f7aedf2e889c636791206ca61">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:ae51c3f35648c7ffc7d5158e921ee244e">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="core_8c.html#ae51c3f35648c7ffc7d5158e921ee244e">move_x</a> (unsigned char matrix[][<a class="el"
+              href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>], <a class="el"
+                                                                                  href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a> opp)</td>
+        </tr>
+        <tr class="memdesc:ae51c3f35648c7ffc7d5158e921ee244e">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">在X方向上移动元素. <a href="core_8c.html#ae51c3f35648c7ffc7d5158e921ee244e">更多...</a><br />
+          </td>
+        </tr>
+        <tr class="separator:ae51c3f35648c7ffc7d5158e921ee244e">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+      </table>
+      <a name="details" id="details"></a>
+      <h2 class="groupheader">详细描述</h2>
+      <div class="textblock">
+        <p>游戏核心代码 </p>
+        <dl class="section author">
+          <dt>作者</dt>
+          <dd>CalvinG </dd>
+        </dl>
+
+        <p class="definition">在文件 <a class="el" href="core_8c_source.html">core.c</a> 中定义.</p>
+      </div>
+      <h2 class="groupheader">函数说明</h2>
+      <a id="a1f7a8949c839960fa20989f8eab4c8a6"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a1f7a8949c839960fa20989f8eab4c8a6">&#9670;&nbsp;</a></span>add_random()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">void add_random </td>
+              <td>(</td>
+              <td class="paramtype">unsigned char&#160;</td>
+              <td class="paramname"><em>matrix</em>[][SIZE]</td>
+              <td>)</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>向矩阵的随机位置添加一个值为1的值。 </p>
+          <p>本函数将1添加到矩阵中的一个随机位置。 例如含有0的空方块 保留1以使用BASE将其升高以获得所需的值 同时，它将矩阵的大小保持在一个较低的值。</p>
+          <p>NOTE: 本函数未检查是否有任何空的地方来保存随机值。 如果没有找到空位，则会发生浮点异常。 </p>
+
+          <p class="definition">在文件 <a class="el" href="core_8c_source.html">core.c</a> 第 <a class="el"
+                                                                                                 href="core_8c_source.html#l00060">60</a> 行定义.</p>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="core_8c_a1f7a8949c839960fa20989f8eab4c8a6_icgraph.png" border="0"
+                                     usemap="#core_8c_a1f7a8949c839960fa20989f8eab4c8a6_icgraph" alt="" /></div>
+            <map name="core_8c_a1f7a8949c839960fa20989f8eab4c8a6_icgraph"
+              id="core_8c_a1f7a8949c839960fa20989f8eab4c8a6_icgraph">
+              <area shape="rect" title="向矩阵的随机位置添加一个值为1的值。" alt="" coords="528,107,631,133" />
+              <area shape="rect" href="game_8h.html#a4ebf14c06af7fc0efe266248a3d3deae"
+                title="处理 &#39;New Game&#39; 的按钮操作。" alt="" coords="247,157,357,184" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,183,60,209" />
+              <area shape="rect" href="game_8h.html#ad2d47142ba9e822639bb8da8a68c5f31" title="本函数处理并绑定键盘操作" alt=""
+                    coords="247,81,357,108" />
+              <area shape="rect" href="core_8h.html#ae51c3f35648c7ffc7d5158e921ee244e" title="在X方向上移动元素." alt=""
+                    coords="405,5,480,32" />
+              <area shape="rect" href="core_8h.html#aabdfe10f7aedf2e889c636791206ca61" title="在Y方向上移动元素." alt=""
+                    coords="405,56,480,83" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                    alt="" coords="108,157,199,184" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="a6b38638513ffc6b882a896164d472b8b"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a6b38638513ffc6b882a896164d472b8b">&#9670;&nbsp;</a></span>calculate_score()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">int calculate_score </td>
+              <td>(</td>
+              <td class="paramtype">unsigned char&#160;</td>
+              <td class="paramname"><em>matrix</em>[][SIZE]</td>
+              <td>)</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>分数计算 </p>
+          <p>本函数以一种简单的方式计算矩阵分数 矩阵中的每一个元素n都被视为BASE的指数。 计算并返回BASE^n的值</p>
+          <dl class="section return">
+            <dt>返回</dt>
+            <dd>表示当前分数的整数 </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="core_8c_source.html">core.c</a> 第 <a class="el"
+                                                                                                 href="core_8c_source.html#l00024">24</a> 行定义.</p>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="core_8c_a6b38638513ffc6b882a896164d472b8b_icgraph.png" border="0"
+                                     usemap="#core_8c_a6b38638513ffc6b882a896164d472b8b_icgraph" alt="" /></div>
+            <map name="core_8c_a6b38638513ffc6b882a896164d472b8b_icgraph"
+              id="core_8c_a6b38638513ffc6b882a896164d472b8b_icgraph">
+              <area shape="rect" title="分数计算" alt="" coords="547,5,669,32" />
+              <area shape="rect" href="game_8h.html#ab373140f8b3583c5349431e08a45b1ad" title="绘制当前得分" alt=""
+                    coords="403,5,499,32" />
+              <area shape="rect" href="game_8h.html#a99bae3e2bc3725f227ba6498d02a5d13" title="游戏渲染绘制" alt=""
+                    coords="247,5,355,32" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                    alt="" coords="108,5,199,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="aab8569d2ebd3490f475e52f2b5bca620"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#aab8569d2ebd3490f475e52f2b5bca620">&#9670;&nbsp;</a></span>clear_matrix()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">void clear_matrix </td>
+              <td>(</td>
+              <td class="paramtype">unsigned char&#160;</td>
+              <td class="paramname"><em>matrix</em>[][SIZE]</td>
+              <td>)</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>清空矩阵 </p>
+          <p>游戏矩阵归零.</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">matrix</td>
+                  <td>游戏矩阵. </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="core_8c_source.html">core.c</a> 第 <a class="el"
+                                                                                                 href="core_8c_source.html#l00013">13</a> 行定义.</p>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="core_8c_aab8569d2ebd3490f475e52f2b5bca620_icgraph.png" border="0"
+                                     usemap="#core_8c_aab8569d2ebd3490f475e52f2b5bca620_icgraph" alt="" /></div>
+            <map name="core_8c_aab8569d2ebd3490f475e52f2b5bca620_icgraph"
+              id="core_8c_aab8569d2ebd3490f475e52f2b5bca620_icgraph">
+              <area shape="rect" title="清空矩阵" alt="" coords="405,56,509,83" />
+              <area shape="rect" href="game_8h.html#a4ebf14c06af7fc0efe266248a3d3deae"
+                title="处理 &#39;New Game&#39; 的按钮操作。" alt="" coords="247,5,357,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,81,60,108" />
+              <area shape="rect" href="game_8h.html#ad2d47142ba9e822639bb8da8a68c5f31" title="本函数处理并绑定键盘操作" alt=""
+                    coords="247,56,357,83" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                    alt="" coords="108,56,199,83" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="a63fab7d374b01bd85297485e9f6d09ec"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a63fab7d374b01bd85297485e9f6d09ec">&#9670;&nbsp;</a></span>is_game_over()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname"><a class="el" href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a>
+                is_game_over </td>
+              <td>(</td>
+              <td class="paramtype">unsigned char&#160;</td>
+              <td class="paramname"><em>matrix</em>[][SIZE]</td>
+              <td>)</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>检查棋盘上是否还有可能的移动。 </p>
+          <p>检查方块的移动和组合。</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">matrix</td>
+                  <td>游戏矩阵. </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+          <dl class="section return">
+            <dt>返回</dt>
+            <dd>返回0或1 </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="core_8c_source.html">core.c</a> 第 <a class="el"
+                                                                                                 href="core_8c_source.html#l00079">79</a> 行定义.</p>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="core_8c_a63fab7d374b01bd85297485e9f6d09ec_icgraph.png" border="0"
+                                     usemap="#core_8c_a63fab7d374b01bd85297485e9f6d09ec_icgraph" alt="" /></div>
+            <map name="core_8c_a63fab7d374b01bd85297485e9f6d09ec_icgraph"
+              id="core_8c_a63fab7d374b01bd85297485e9f6d09ec_icgraph">
+              <area shape="rect" title="检查棋盘上是否还有可能的移动。" alt="" coords="405,5,519,32" />
+              <area shape="rect" href="game_8h.html#ad2d47142ba9e822639bb8da8a68c5f31" title="本函数处理并绑定键盘操作" alt=""
+                    coords="247,5,357,32" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                    alt="" coords="108,5,199,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="a740c6e8c239e47d7e59edc221918ce64"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a740c6e8c239e47d7e59edc221918ce64">&#9670;&nbsp;</a></span>merge_x()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname"><a class="el" href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a> merge_x
+              </td>
+              <td>(</td>
+              <td class="paramtype">unsigned char&#160;</td>
+              <td class="paramname"><em>matrix</em>[][SIZE], </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype"><a class="el" href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a>&#160;
+              </td>
+              <td class="paramname"><em>opp</em>&#160;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>)</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>合并X方向的元素 </p>
+          <p>本函数合并了矩阵在X方向上连续的元素。 如果方向为0，则向左侧合并 如果方向非0，则向右侧合并</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">matrix</td>
+                  <td>游戏矩阵 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">opp</td>
+                  <td>移动方向</td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+          <dl class="section return">
+            <dt>返回</dt>
+            <dd>合并是否成功 </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="core_8c_source.html">core.c</a> 第 <a class="el"
+                                                                                                 href="core_8c_source.html#l00131">131</a> 行定义.</p>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="core_8c_a740c6e8c239e47d7e59edc221918ce64_icgraph.png" border="0"
+                                     usemap="#core_8c_a740c6e8c239e47d7e59edc221918ce64_icgraph" alt="" /></div>
+            <map name="core_8c_a740c6e8c239e47d7e59edc221918ce64_icgraph"
+              id="core_8c_a740c6e8c239e47d7e59edc221918ce64_icgraph">
+              <area shape="rect" title="合并X方向的元素" alt="" coords="528,5,607,32" />
+              <area shape="rect" href="core_8h.html#ae51c3f35648c7ffc7d5158e921ee244e" title="在X方向上移动元素." alt=""
+                    coords="405,5,480,32" />
+              <area shape="rect" href="game_8h.html#ad2d47142ba9e822639bb8da8a68c5f31" title="本函数处理并绑定键盘操作" alt=""
+                    coords="247,5,357,32" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                    alt="" coords="108,5,199,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="a26174ee10f1a775e2b01caf2651bd1b1"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a26174ee10f1a775e2b01caf2651bd1b1">&#9670;&nbsp;</a></span>merge_y()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname"><a class="el" href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a> merge_y
+              </td>
+              <td>(</td>
+              <td class="paramtype">unsigned char&#160;</td>
+              <td class="paramname"><em>matrix</em>[][SIZE], </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype"><a class="el" href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a>&#160;
+              </td>
+              <td class="paramname"><em>opp</em>&#160;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>)</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>合并Y方向的元素 </p>
+          <p>本函数合并了矩阵在X方向上连续的元素。 如果方向为0，则向顶部合并 如果方向非0，则向底部合并</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">matrix</td>
+                  <td>游戏矩阵 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">opp</td>
+                  <td>移动方向</td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+          <dl class="section return">
+            <dt>返回</dt>
+            <dd>合并是否成功 </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="core_8c_source.html">core.c</a> 第 <a class="el"
+                                                                                                 href="core_8c_source.html#l00176">176</a> 行定义.</p>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="core_8c_a26174ee10f1a775e2b01caf2651bd1b1_icgraph.png" border="0"
+                                     usemap="#core_8c_a26174ee10f1a775e2b01caf2651bd1b1_icgraph" alt="" /></div>
+            <map name="core_8c_a26174ee10f1a775e2b01caf2651bd1b1_icgraph"
+              id="core_8c_a26174ee10f1a775e2b01caf2651bd1b1_icgraph">
+              <area shape="rect" title="合并Y方向的元素" alt="" coords="528,5,607,32" />
+              <area shape="rect" href="core_8h.html#aabdfe10f7aedf2e889c636791206ca61" title="在Y方向上移动元素." alt=""
+                    coords="405,5,480,32" />
+              <area shape="rect" href="game_8h.html#ad2d47142ba9e822639bb8da8a68c5f31" title="本函数处理并绑定键盘操作" alt=""
+                    coords="247,5,357,32" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                    alt="" coords="108,5,199,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="ae51c3f35648c7ffc7d5158e921ee244e"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#ae51c3f35648c7ffc7d5158e921ee244e">&#9670;&nbsp;</a></span>move_x()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="mlabels">
+            <tr>
+              <td class="mlabels-left">
+                <table class="memname">
+                  <tr>
+                    <td class="memname">void move_x </td>
+                    <td>(</td>
+                    <td class="paramtype">unsigned char&#160;</td>
+                    <td class="paramname"><em>matrix</em>[][SIZE], </td>
+                  </tr>
+                  <tr>
+                    <td class="paramkey"></td>
+                    <td></td>
+                    <td class="paramtype"><a class="el"
+                        href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a>&#160;</td>
+                    <td class="paramname"><em>opp</em>&#160;</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>)</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </table>
+              </td>
+              <td class="mlabels-right">
+                <span class="mlabels"><span class="mlabel">inline</span></span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>在X方向上移动元素. </p>
+          <p>本函数仅执行 <a class="el" href="core_8h.html#a9f2a400c6ed1ba5e8a7b6e2832bcd8aa" title="在X方向上移动矩阵。">shift_x()</a>
+            及 <a class="el" href="core_8h.html#a740c6e8c239e47d7e59edc221918ce64" title="合并X方向的元素">merge_x()</a>操作
+            若二者中任何一个成功执行，则进一步调用add_ram=ndom()操作</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">matrix</td>
+                  <td>游戏矩阵 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">opp</td>
+                  <td>移动方向 </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="core_8c_source.html">core.c</a> 第 <a class="el"
+                                                                                                 href="core_8c_source.html#l00259">259</a> 行定义.</p>
+          <div class="dynheader">
+            函数调用图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="core_8c_ae51c3f35648c7ffc7d5158e921ee244e_cgraph.png" border="0"
+                                     usemap="#core_8c_ae51c3f35648c7ffc7d5158e921ee244e_cgraph" alt="" /></div>
+            <map name="core_8c_ae51c3f35648c7ffc7d5158e921ee244e_cgraph"
+              id="core_8c_ae51c3f35648c7ffc7d5158e921ee244e_cgraph">
+              <area shape="rect" title="在X方向上移动元素." alt="" coords="5,56,80,83" />
+              <area shape="rect" href="core_8c.html#a1f7a8949c839960fa20989f8eab4c8a6" title="向矩阵的随机位置添加一个值为1的值。" alt=""
+                coords="128,5,231,32" />
+              <area shape="rect" href="core_8c.html#a740c6e8c239e47d7e59edc221918ce64" title="合并X方向的元素" alt=""
+                coords="140,56,219,83" />
+              <area shape="rect" href="core_8c.html#a9f2a400c6ed1ba5e8a7b6e2832bcd8aa" title="在X方向上移动矩阵。" alt=""
+                coords="147,107,212,133" />
+            </map>
+          </div>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="core_8c_ae51c3f35648c7ffc7d5158e921ee244e_icgraph.png" border="0"
+                                     usemap="#core_8c_ae51c3f35648c7ffc7d5158e921ee244e_icgraph" alt="" /></div>
+            <map name="core_8c_ae51c3f35648c7ffc7d5158e921ee244e_icgraph"
+              id="core_8c_ae51c3f35648c7ffc7d5158e921ee244e_icgraph">
+              <area shape="rect" title="在X方向上移动元素." alt="" coords="405,5,480,32" />
+              <area shape="rect" href="game_8h.html#ad2d47142ba9e822639bb8da8a68c5f31" title="本函数处理并绑定键盘操作" alt=""
+                    coords="247,5,357,32" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                    alt="" coords="108,5,199,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="aabdfe10f7aedf2e889c636791206ca61"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#aabdfe10f7aedf2e889c636791206ca61">&#9670;&nbsp;</a></span>move_y()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="mlabels">
+            <tr>
+              <td class="mlabels-left">
+                <table class="memname">
+                  <tr>
+                    <td class="memname">void move_y </td>
+                    <td>(</td>
+                    <td class="paramtype">unsigned char&#160;</td>
+                    <td class="paramname"><em>matrix</em>[][SIZE], </td>
+                  </tr>
+                  <tr>
+                    <td class="paramkey"></td>
+                    <td></td>
+                    <td class="paramtype"><a class="el"
+                        href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a>&#160;</td>
+                    <td class="paramname"><em>opp</em>&#160;</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>)</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </table>
+              </td>
+              <td class="mlabels-right">
+                <span class="mlabels"><span class="mlabel">inline</span></span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>在Y方向上移动元素. </p>
+          <p>本函数仅执行 <a class="el" href="core_8h.html#a47d12115c591faffc1370615c3022314" title="在Y方向上移动矩阵。">shift_y()</a>
+            及 <a class="el" href="core_8h.html#a26174ee10f1a775e2b01caf2651bd1b1" title="合并Y方向的元素">merge_y()</a>操作
+            若二者中任何一个成功执行，则进一步调用add_ram=ndom()操作</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">matrix</td>
+                  <td>游戏矩阵 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">opp</td>
+                  <td>移动方向 </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="core_8c_source.html">core.c</a> 第 <a class="el"
+                                                                                                 href="core_8c_source.html#l00250">250</a> 行定义.</p>
+          <div class="dynheader">
+            函数调用图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="core_8c_aabdfe10f7aedf2e889c636791206ca61_cgraph.png" border="0"
+                                     usemap="#core_8c_aabdfe10f7aedf2e889c636791206ca61_cgraph" alt="" /></div>
+            <map name="core_8c_aabdfe10f7aedf2e889c636791206ca61_cgraph"
+              id="core_8c_aabdfe10f7aedf2e889c636791206ca61_cgraph">
+              <area shape="rect" title="在Y方向上移动元素." alt="" coords="5,56,80,83" />
+              <area shape="rect" href="core_8c.html#a1f7a8949c839960fa20989f8eab4c8a6" title="向矩阵的随机位置添加一个值为1的值。" alt=""
+                coords="128,5,231,32" />
+              <area shape="rect" href="core_8c.html#a26174ee10f1a775e2b01caf2651bd1b1" title="合并Y方向的元素" alt=""
+                coords="140,56,219,83" />
+              <area shape="rect" href="core_8c.html#a47d12115c591faffc1370615c3022314" title="在Y方向上移动矩阵。" alt=""
+                coords="147,107,212,133" />
+            </map>
+          </div>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="core_8c_aabdfe10f7aedf2e889c636791206ca61_icgraph.png" border="0"
+                                     usemap="#core_8c_aabdfe10f7aedf2e889c636791206ca61_icgraph" alt="" /></div>
+            <map name="core_8c_aabdfe10f7aedf2e889c636791206ca61_icgraph"
+              id="core_8c_aabdfe10f7aedf2e889c636791206ca61_icgraph">
+              <area shape="rect" title="在Y方向上移动元素." alt="" coords="405,5,480,32" />
+              <area shape="rect" href="game_8h.html#ad2d47142ba9e822639bb8da8a68c5f31" title="本函数处理并绑定键盘操作" alt=""
+                    coords="247,5,357,32" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                    alt="" coords="108,5,199,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="a069bf556cb9abb4c011e79a8e2208737"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a069bf556cb9abb4c011e79a8e2208737">&#9670;&nbsp;</a></span>print_matrix()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">void print_matrix </td>
+              <td>(</td>
+              <td class="paramtype">unsigned char&#160;</td>
+              <td class="paramname"><em>matrix</em>[][SIZE], </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">FILE *&#160;</td>
+              <td class="paramname"><em>stream</em>&#160;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>)</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>写入矩阵 </p>
+          <p>该矩阵以逗号分隔的索引列表形式编写。 每一列由符号 '<br />
+            ' 分隔. 每个空单元格由'-'字符表示.</p>
+          <p>这些索引可以用来计算实际的整数.</p>
+          <p>可以使用&lt;stdio.h&gt;中的常量stdout打印标准输出</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">matrix</td>
+                  <td>项目所打印矩阵 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">stream</td>
+                  <td>使用的流式文件. </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="core_8c_source.html">core.c</a> 第 <a class="el"
+                                                                                                 href="core_8c_source.html#l00040">40</a> 行定义.</p>
+
+        </div>
+      </div>
+      <a id="a9f2a400c6ed1ba5e8a7b6e2832bcd8aa"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a9f2a400c6ed1ba5e8a7b6e2832bcd8aa">&#9670;&nbsp;</a></span>shift_x()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname"><a class="el" href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a> shift_x
+              </td>
+              <td>(</td>
+              <td class="paramtype">unsigned char&#160;</td>
+              <td class="paramname"><em>matrix</em>[][SIZE], </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype"><a class="el" href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a>&#160;
+              </td>
+              <td class="paramname"><em>opp</em>&#160;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>)</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>在X方向上移动矩阵。 </p>
+          <p>本函数在X方向上移动游戏矩阵的所有元素。 如果方向为0，则矩阵向左移动 如果方向非0，则矩阵向右移动</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">matrix</td>
+                  <td>游戏矩阵 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">opp</td>
+                  <td>移动方向.</td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+          <dl class="section return">
+            <dt>返回</dt>
+            <dd>移动操作是否成功 </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="core_8c_source.html">core.c</a> 第 <a class="el"
+                                                                                                 href="core_8c_source.html#l00102">102</a> 行定义.</p>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="core_8c_a9f2a400c6ed1ba5e8a7b6e2832bcd8aa_icgraph.png" border="0"
+                                     usemap="#core_8c_a9f2a400c6ed1ba5e8a7b6e2832bcd8aa_icgraph" alt="" /></div>
+            <map name="core_8c_a9f2a400c6ed1ba5e8a7b6e2832bcd8aa_icgraph"
+              id="core_8c_a9f2a400c6ed1ba5e8a7b6e2832bcd8aa_icgraph">
+              <area shape="rect" title="在X方向上移动矩阵。" alt="" coords="528,5,593,32" />
+              <area shape="rect" href="core_8h.html#ae51c3f35648c7ffc7d5158e921ee244e" title="在X方向上移动元素." alt=""
+                    coords="405,5,480,32" />
+              <area shape="rect" href="game_8h.html#ad2d47142ba9e822639bb8da8a68c5f31" title="本函数处理并绑定键盘操作" alt=""
+                    coords="247,5,357,32" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                    alt="" coords="108,5,199,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="a47d12115c591faffc1370615c3022314"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a47d12115c591faffc1370615c3022314">&#9670;&nbsp;</a></span>shift_y()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname"><a class="el" href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a> shift_y
+              </td>
+              <td>(</td>
+              <td class="paramtype">unsigned char&#160;</td>
+              <td class="paramname"><em>matrix</em>[][SIZE], </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype"><a class="el" href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a>&#160;
+              </td>
+              <td class="paramname"><em>opp</em>&#160;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>)</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>在Y方向上移动矩阵。 </p>
+          <p>本函数在Y方向上移动游戏矩阵的所有元素。 如果方向为0，则矩阵向上移动 如果方向非0，则矩阵向下移动</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">matrix</td>
+                  <td>游戏矩阵 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">opp</td>
+                  <td>移动方向.</td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+          <dl class="section return">
+            <dt>返回</dt>
+            <dd>移动操作是否成功 </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="core_8c_source.html">core.c</a> 第 <a class="el"
+                                                                                                 href="core_8c_source.html#l00220">220</a> 行定义.</p>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="core_8c_a47d12115c591faffc1370615c3022314_icgraph.png" border="0"
+                                     usemap="#core_8c_a47d12115c591faffc1370615c3022314_icgraph" alt="" /></div>
+            <map name="core_8c_a47d12115c591faffc1370615c3022314_icgraph"
+              id="core_8c_a47d12115c591faffc1370615c3022314_icgraph">
+              <area shape="rect" title="在Y方向上移动矩阵。" alt="" coords="528,5,593,32" />
+              <area shape="rect" href="core_8h.html#aabdfe10f7aedf2e889c636791206ca61" title="在Y方向上移动元素." alt=""
+                    coords="405,5,480,32" />
+              <area shape="rect" href="game_8h.html#ad2d47142ba9e822639bb8da8a68c5f31" title="本函数处理并绑定键盘操作" alt=""
+                    coords="247,5,357,32" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                    alt="" coords="108,5,199,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+    </div><!-- contents -->
+  </div><!-- doc-content -->
+  <!-- start footer part -->
+  <div id="nav-path" class="navpath">
+    <!-- id is needed for treeview function! -->
+    <ul>
+      <li class="navelem"><a class="el" href="core_8c.html">core.c</a></li>
+      <!--     <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li> -->
+    </ul>
+  </div>
+</body>
+
+</html>

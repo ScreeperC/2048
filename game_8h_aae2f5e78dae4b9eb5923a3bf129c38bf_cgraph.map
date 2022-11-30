@@ -1,0 +1,4 @@
+<map id="draw_text_white" name="draw_text_white">
+<area shape="rect" id="node1" title="矩形框内居中绘制白色文本" alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node2" href="$game_8c.html#af33bfda60e57fefff8b247c4a08d92e3" title="矩形框内居中绘制文本" alt="" coords="184,5,271,32"/>
+</map>

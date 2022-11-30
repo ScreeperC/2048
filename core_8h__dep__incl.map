@@ -1,0 +1,6 @@
+<map id="include/core.h" name="include/core.h">
+<area shape="rect" id="node1" title="包含游戏核心声明的头文件" alt="" coords="37,5,150,32"/>
+<area shape="rect" id="node2" href="$core_8c.html" title="游戏核心代码" alt="" coords="5,80,67,107"/>
+<area shape="rect" id="node3" href="$game_8h.html" title="游戏GUI头文件" alt="" coords="91,80,213,107"/>
+<area shape="rect" id="node4" href="$game_8c.html" title="包含游戏GUI及main函数的文件" alt="" coords="117,155,187,181"/>
+</map>

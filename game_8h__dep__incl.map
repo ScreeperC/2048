@@ -1,0 +1,4 @@
+<map id="include/game.h" name="include/game.h">
+<area shape="rect" id="node1" title="游戏GUI头文件" alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node2" href="$game_8c.html" title="包含游戏GUI及main函数的文件" alt="" coords="31,80,102,107"/>
+</map>

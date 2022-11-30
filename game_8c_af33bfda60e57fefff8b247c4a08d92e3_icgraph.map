@@ -1,0 +1,12 @@
+<map id="draw_text" name="draw_text">
+<area shape="rect" id="node1" title="矩形框内居中绘制文本" alt="" coords="736,56,823,83"/>
+<area shape="rect" id="node2" href="$game_8h.html#a7d213c086c617d3cc8b35b0abc1dc1f4" title="矩形框内居中绘制黑色文本" alt="" coords="406,5,509,32"/>
+<area shape="rect" id="node6" href="$game_8h.html#aae2f5e78dae4b9eb5923a3bf129c38bf" title="矩形框内居中绘制白色文本" alt="" coords="557,81,688,108"/>
+<area shape="rect" id="node3" href="$game_8h.html#ad2d47142ba9e822639bb8da8a68c5f31" title="本函数处理并绑定键盘操作" alt="" coords="247,56,357,83"/>
+<area shape="rect" id="node5" href="$game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,31,60,57"/>
+<area shape="rect" id="node4" href="$game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画" alt="" coords="108,56,199,83"/>
+<area shape="rect" id="node7" href="$game_8h.html#a818bea26d1fb4ae684cc3976db112e86" title="绘制游戏按钮" alt="" coords="406,107,509,133"/>
+<area shape="rect" id="node9" href="$game_8h.html#a83a8dda9c516abcd8be12c018679eb00" title="绘制游戏棋盘." alt="" coords="405,157,509,184"/>
+<area shape="rect" id="node10" href="$game_8h.html#ab373140f8b3583c5349431e08a45b1ad" title="绘制当前得分" alt="" coords="409,56,505,83"/>
+<area shape="rect" id="node8" href="$game_8h.html#a99bae3e2bc3725f227ba6498d02a5d13" title="游戏渲染绘制" alt="" coords="248,107,356,133"/>
+</map>

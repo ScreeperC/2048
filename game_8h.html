@@ -1,0 +1,1594 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <meta name="generator" content="Doxygen 1.8.17" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Project: include/game.h 文件参考</title>
+  <link href="tabs.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="dynsections.js"></script>
+  <link href="navtree.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="resize.js"></script>
+  <script type="text/javascript" src="navtreedata.js"></script>
+  <script type="text/javascript" src="navtree.js"></script>
+  <link href="search/search.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="search/searchdata.js"></script>
+  <script type="text/javascript" src="search/search.js"></script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+  <script type="text/javascript" async="async"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js"></script>
+  <link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="top">
+    <!-- do not remove this div, it is closed by doxygen! -->
+    <div id="titlearea">
+      <table cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr style="height: 56px;">
+            <td id="projectalign" style="padding-left: 0.5em;">
+              <div id="projectname">My Project
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- end header part -->
+    <!-- 制作者 Doxygen 1.8.17 -->
+    <script type="text/javascript">
+      /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+      var searchBox = new SearchBox("searchBox", "search", false, '搜索');
+/* @license-end */
+    </script>
+    <script type="text/javascript" src="menudata.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
+    <script type="text/javascript">
+      /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+      $(function () {
+        initMenu('', true, false, 'search.php', '搜索');
+        $(document).ready(function () { init_search(); });
+      });
+/* @license-end */</script>
+    <div id="main-nav"></div>
+  </div><!-- top -->
+  <div id="side-nav" class="ui-resizable side-nav-resizable">
+    <div id="nav-tree">
+      <div id="nav-tree-contents">
+        <div id="nav-sync" class="sync"></div>
+      </div>
+    </div>
+    <div id="splitbar" style="-moz-user-select:none;" class="ui-resizable-handle">
+    </div>
+  </div>
+  <script type="text/javascript">
+    /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+    $(document).ready(function () { initNavTree('game_8h.html', ''); initResizable(); });
+/* @license-end */
+  </script>
+  <div id="doc-content">
+    <!-- window showing the filter options -->
+    <div id="MSearchSelectWindow" onmouseover="return searchBox.OnSearchSelectShow()"
+      onmouseout="return searchBox.OnSearchSelectHide()" onkeydown="return searchBox.OnSearchSelectKey(event)">
+    </div>
+
+    <!-- iframe showing the search results (closed by default) -->
+    <div id="MSearchResultsWindow">
+      <iframe src="javascript:void(0)" frameborder="0" name="MSearchResults" id="MSearchResults">
+      </iframe>
+    </div>
+
+    <div class="header">
+      <div class="summary">
+        <a href="#define-members">宏定义</a> &#124;
+        <a href="#func-members">函数</a>
+      </div>
+      <div class="headertitle">
+        <div class="title">game.h 文件参考</div>
+      </div>
+    </div>
+    <!--header-->
+    <div class="contents">
+
+      <p>游戏GUI头文件
+        <a href="#details">更多...</a>
+      </p>
+      <div class="textblock">
+        <code>#include &quot;<a class="el" href="core_8h_source.html">../include/core.h</a>&quot;</code><br />
+        <code>#include &quot;../SDL2/SDL.h&quot;</code><br />
+        <code>#include &quot;../SDL2/SDL_ttf.h&quot;</code><br />
+      </div>
+      <div class="textblock">
+        <div class="dynheader">
+          game.h 的引用(Include)关系图:</div>
+        <div class="dyncontent">
+          <div class="center"><img src="game_8h__incl.png" border="0" usemap="#include_2game_8h" alt="" /></div>
+          <map name="include_2game_8h" id="include_2game_8h">
+            <area shape="rect" title="游戏GUI头文件" alt="" coords="148,5,271,32" />
+            <area shape="rect" href="core_8h.html" title="包含游戏核心声明的头文件" alt="" coords="5,80,131,107" />
+            <area shape="rect" title=" " alt="" coords="155,80,263,107" />
+            <area shape="rect" title=" " alt="" coords="287,80,417,107" />
+            <area shape="rect" title=" " alt="" coords="35,155,101,181" />
+          </map>
+        </div>
+      </div>
+      <div class="textblock">
+        <div class="dynheader">
+          此图展示该文件直接或间接的被哪些文件引用了:</div>
+        <div class="dyncontent">
+          <div class="center"><img src="game_8h__dep__incl.png" border="0" usemap="#include_2game_8hdep" alt="" /></div>
+          <map name="include_2game_8hdep" id="include_2game_8hdep">
+            <area shape="rect" title="游戏GUI头文件" alt="" coords="5,5,128,32" />
+            <area shape="rect" href="game_8c.html" title="包含游戏GUI及main函数的文件" alt="" coords="31,80,102,107" />
+          </map>
+        </div>
+      </div>
+      <p><a href="game_8h_source.html">浏览源代码.</a></p>
+      <table class="memberdecls">
+        <tr class="heading">
+          <td colspan="2">
+            <h2 class="groupheader"><a name="define-members"></a>
+              宏定义</h2>
+          </td>
+        </tr>
+        <tr class="memitem:a2cd109632a6dcccaa80b43561b1ab700">
+          <td class="memItemLeft" align="right" valign="top">#define&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="game_8h.html#a2cd109632a6dcccaa80b43561b1ab700">SCREEN_WIDTH</a>&#160;&#160;&#160;500</td>
+        </tr>
+        <tr class="separator:a2cd109632a6dcccaa80b43561b1ab700">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:a6974d08a74da681b3957b2fead2608b8">
+          <td class="memItemLeft" align="right" valign="top">#define&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="game_8h.html#a6974d08a74da681b3957b2fead2608b8">SCREEN_HEIGHT</a>&#160;&#160;&#160;600</td>
+        </tr>
+        <tr class="separator:a6974d08a74da681b3957b2fead2608b8">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+      </table>
+      <table class="memberdecls">
+        <tr class="heading">
+          <td colspan="2">
+            <h2 class="groupheader"><a name="func-members"></a>
+              函数</h2>
+          </td>
+        </tr>
+        <tr class="memitem:ac4a0c14184cf8d81655800a6ff947470">
+          <td class="memItemLeft" align="right" valign="top"><a class="el"
+              href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a>&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="game_8h.html#ac4a0c14184cf8d81655800a6ff947470">initSDL</a> (SDL_Window **gWindow, SDL_Renderer
+            **gRenderer)</td>
+        </tr>
+        <tr class="memdesc:ac4a0c14184cf8d81655800a6ff947470">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">SDL 窗口初始化 <a href="game_8h.html#ac4a0c14184cf8d81655800a6ff947470">更多...</a><br /></td>
+        </tr>
+        <tr class="separator:ac4a0c14184cf8d81655800a6ff947470">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:a6670a6a223093b2f83032e5a775ac3a4">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="game_8h.html#a6670a6a223093b2f83032e5a775ac3a4">SDLclose</a> (SDL_Window *gWindow)</td>
+        </tr>
+        <tr class="memdesc:a6670a6a223093b2f83032e5a775ac3a4">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">关闭SDL窗口 <a href="game_8h.html#a6670a6a223093b2f83032e5a775ac3a4">更多...</a><br /></td>
+        </tr>
+        <tr class="separator:a6670a6a223093b2f83032e5a775ac3a4">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:af33bfda60e57fefff8b247c4a08d92e3">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="game_8h.html#af33bfda60e57fefff8b247c4a08d92e3">draw_text</a> (SDL_Renderer *gRenderer, TTF_Font
+            *font, const char *text, SDL_Rect rect, SDL_Color color)</td>
+        </tr>
+        <tr class="memdesc:af33bfda60e57fefff8b247c4a08d92e3">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">矩形框内居中绘制文本 <a href="game_8h.html#af33bfda60e57fefff8b247c4a08d92e3">更多...</a><br />
+          </td>
+        </tr>
+        <tr class="separator:af33bfda60e57fefff8b247c4a08d92e3">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:aae2f5e78dae4b9eb5923a3bf129c38bf">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="game_8h.html#aae2f5e78dae4b9eb5923a3bf129c38bf">draw_text_white</a> (SDL_Renderer *gRenderer,
+            TTF_Font *font, const char *text, SDL_Rect rect)</td>
+        </tr>
+        <tr class="memdesc:aae2f5e78dae4b9eb5923a3bf129c38bf">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">矩形框内居中绘制白色文本 <a href="game_8h.html#aae2f5e78dae4b9eb5923a3bf129c38bf">更多...</a><br />
+          </td>
+        </tr>
+        <tr class="separator:aae2f5e78dae4b9eb5923a3bf129c38bf">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:ab2c805f3fdadb0d569d82376ff16419a">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="game_8h.html#ab2c805f3fdadb0d569d82376ff16419a">SDLclear</a> (SDL_Renderer *gRenderer)</td>
+        </tr>
+        <tr class="memdesc:ab2c805f3fdadb0d569d82376ff16419a">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">清除窗口 <a href="game_8h.html#ab2c805f3fdadb0d569d82376ff16419a">更多...</a><br /></td>
+        </tr>
+        <tr class="separator:ab2c805f3fdadb0d569d82376ff16419a">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:a7d213c086c617d3cc8b35b0abc1dc1f4">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="game_8h.html#a7d213c086c617d3cc8b35b0abc1dc1f4">display_text</a> (SDL_Renderer *gRenderer, const
+            char *text, int size)</td>
+        </tr>
+        <tr class="memdesc:a7d213c086c617d3cc8b35b0abc1dc1f4">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">矩形框内居中绘制黑色文本 <a href="game_8h.html#a7d213c086c617d3cc8b35b0abc1dc1f4">更多...</a><br />
+          </td>
+        </tr>
+        <tr class="separator:a7d213c086c617d3cc8b35b0abc1dc1f4">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:a83a8dda9c516abcd8be12c018679eb00">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="game_8h.html#a83a8dda9c516abcd8be12c018679eb00">draw_matrix</a> (SDL_Renderer *gRenderer, unsigned
+            char matrix[][<a class="el" href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>], TTF_Font *font)
+          </td>
+        </tr>
+        <tr class="memdesc:a83a8dda9c516abcd8be12c018679eb00">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">绘制游戏棋盘. <a href="game_8h.html#a83a8dda9c516abcd8be12c018679eb00">更多...</a><br /></td>
+        </tr>
+        <tr class="separator:a83a8dda9c516abcd8be12c018679eb00">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:a818bea26d1fb4ae684cc3976db112e86">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="game_8h.html#a818bea26d1fb4ae684cc3976db112e86">draw_button</a> (SDL_Renderer *gRenderer, unsigned
+            char matrix[][<a class="el" href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>], TTF_Font *font)
+          </td>
+        </tr>
+        <tr class="memdesc:a818bea26d1fb4ae684cc3976db112e86">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">绘制游戏按钮 <a href="game_8h.html#a818bea26d1fb4ae684cc3976db112e86">更多...</a><br /></td>
+        </tr>
+        <tr class="separator:a818bea26d1fb4ae684cc3976db112e86">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:a4ebf14c06af7fc0efe266248a3d3deae">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="game_8h.html#a4ebf14c06af7fc0efe266248a3d3deae">button_action</a> (SDL_Event e, unsigned char
+            matrix[][<a class="el" href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>])</td>
+        </tr>
+        <tr class="memdesc:a4ebf14c06af7fc0efe266248a3d3deae">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">处理 'New Game' 的按钮操作。 <a
+              href="game_8h.html#a4ebf14c06af7fc0efe266248a3d3deae">更多...</a><br /></td>
+        </tr>
+        <tr class="separator:a4ebf14c06af7fc0efe266248a3d3deae">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:ab373140f8b3583c5349431e08a45b1ad">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="game_8h.html#ab373140f8b3583c5349431e08a45b1ad">draw_score</a> (SDL_Renderer *gRenderer, unsigned
+            char matrix[][<a class="el" href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>], TTF_Font *font)
+          </td>
+        </tr>
+        <tr class="memdesc:ab373140f8b3583c5349431e08a45b1ad">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">绘制当前得分 <a href="game_8h.html#ab373140f8b3583c5349431e08a45b1ad">更多...</a><br /></td>
+        </tr>
+        <tr class="separator:ab373140f8b3583c5349431e08a45b1ad">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:a99bae3e2bc3725f227ba6498d02a5d13">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="game_8h.html#a99bae3e2bc3725f227ba6498d02a5d13">render_game</a> (SDL_Renderer *gRenderer, unsigned
+            char matrix[][<a class="el" href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>], TTF_Font *font)
+          </td>
+        </tr>
+        <tr class="memdesc:a99bae3e2bc3725f227ba6498d02a5d13">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">游戏渲染绘制 <a href="game_8h.html#a99bae3e2bc3725f227ba6498d02a5d13">更多...</a><br /></td>
+        </tr>
+        <tr class="separator:a99bae3e2bc3725f227ba6498d02a5d13">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:a342d40610c1944fff2d2217279491ef5">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="game_8h.html#a342d40610c1944fff2d2217279491ef5">gameLoop</a> (unsigned char matrix[][<a class="el"
+              href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>], SDL_Renderer *gRenderer)</td>
+        </tr>
+        <tr class="memdesc:a342d40610c1944fff2d2217279491ef5">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">这是主要的游戏循环，处理所有事件和绘画 <a
+              href="game_8h.html#a342d40610c1944fff2d2217279491ef5">更多...</a><br /></td>
+        </tr>
+        <tr class="separator:a342d40610c1944fff2d2217279491ef5">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+        <tr class="memitem:ad2d47142ba9e822639bb8da8a68c5f31">
+          <td class="memItemLeft" align="right" valign="top">void&#160;</td>
+          <td class="memItemRight" valign="bottom"><a class="el"
+              href="game_8h.html#ad2d47142ba9e822639bb8da8a68c5f31">handle_move</a> (SDL_Event e, unsigned char
+            matrix[][<a class="el" href="core_8h.html#a70ed59adcb4159ac551058053e649640">SIZE</a>], SDL_Renderer
+            *gRenderer)</td>
+        </tr>
+        <tr class="memdesc:ad2d47142ba9e822639bb8da8a68c5f31">
+          <td class="mdescLeft">&#160;</td>
+          <td class="mdescRight">本函数处理并绑定键盘操作 <a href="game_8h.html#ad2d47142ba9e822639bb8da8a68c5f31">更多...</a><br />
+          </td>
+        </tr>
+        <tr class="separator:ad2d47142ba9e822639bb8da8a68c5f31">
+          <td class="memSeparator" colspan="2">&#160;</td>
+        </tr>
+      </table>
+      <a name="details" id="details"></a>
+      <h2 class="groupheader">详细描述</h2>
+      <div class="textblock">
+        <p>游戏GUI头文件 </p>
+        <dl class="section author">
+          <dt>作者</dt>
+          <dd>CalvinG </dd>
+        </dl>
+
+        <p class="definition">在文件 <a class="el" href="game_8h_source.html">game.h</a> 中定义.</p>
+      </div>
+      <h2 class="groupheader">宏定义说明</h2>
+      <a id="a6974d08a74da681b3957b2fead2608b8"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a6974d08a74da681b3957b2fead2608b8">&#9670;&nbsp;</a></span>SCREEN_HEIGHT</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">#define SCREEN_HEIGHT&#160;&#160;&#160;600</td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p class="definition">在文件 <a class="el" href="game_8h_source.html">game.h</a> 第 <a class="el"
+                                                                                                 href="game_8h_source.html#l00013">13</a> 行定义.</p>
+
+        </div>
+      </div>
+      <a id="a2cd109632a6dcccaa80b43561b1ab700"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a2cd109632a6dcccaa80b43561b1ab700">&#9670;&nbsp;</a></span>SCREEN_WIDTH</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">#define SCREEN_WIDTH&#160;&#160;&#160;500</td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p class="definition">在文件 <a class="el" href="game_8h_source.html">game.h</a> 第 <a class="el"
+                                                                                                 href="game_8h_source.html#l00012">12</a> 行定义.</p>
+
+        </div>
+      </div>
+      <h2 class="groupheader">函数说明</h2>
+      <a id="a4ebf14c06af7fc0efe266248a3d3deae"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a4ebf14c06af7fc0efe266248a3d3deae">&#9670;&nbsp;</a></span>button_action()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">void button_action </td>
+              <td>(</td>
+              <td class="paramtype">SDL_Event&#160;</td>
+              <td class="paramname"><em>e</em>, </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">unsigned char&#160;</td>
+              <td class="paramname"><em>matrix</em>[][SIZE]&#160;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>)</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>处理 'New Game' 的按钮操作。 </p>
+          <p>如果发生了正确的鼠标操作，则重置游戏棋盘，进行新一轮游戏。 当鼠标左键松开时，函数开始执行</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">gRenderer</td>
+                  <td>游戏渲染器 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">e</td>
+                  <td>鼠标操作 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">matrix</td>
+                  <td>游戏矩阵 </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="game_8c_source.html">game.c</a> 第 <a class="el"
+                                                                                                 href="game_8c_source.html#l00167">167</a> 行定义.</p>
+          <div class="dynheader">
+            函数调用图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_a4ebf14c06af7fc0efe266248a3d3deae_cgraph.png" border="0"
+                                     usemap="#game_8h_a4ebf14c06af7fc0efe266248a3d3deae_cgraph" alt="" /></div>
+            <map name="game_8h_a4ebf14c06af7fc0efe266248a3d3deae_cgraph"
+              id="game_8h_a4ebf14c06af7fc0efe266248a3d3deae_cgraph">
+              <area shape="rect" title="处理 &#39;New Game&#39; 的按钮操作。" alt="" coords="5,31,116,57" />
+              <area shape="rect" href="core_8c.html#a1f7a8949c839960fa20989f8eab4c8a6" title="向矩阵的随机位置添加一个值为1的值。" alt=""
+                    coords="165,5,267,32" />
+              <area shape="rect" href="core_8c.html#aab8569d2ebd3490f475e52f2b5bca620" title="清空矩阵" alt=""
+                    coords="164,56,268,83" />
+            </map>
+          </div>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_a4ebf14c06af7fc0efe266248a3d3deae_icgraph.png" border="0"
+                                     usemap="#game_8h_a4ebf14c06af7fc0efe266248a3d3deae_icgraph" alt="" /></div>
+            <map name="game_8h_a4ebf14c06af7fc0efe266248a3d3deae_icgraph"
+              id="game_8h_a4ebf14c06af7fc0efe266248a3d3deae_icgraph">
+              <area shape="rect" title="处理 &#39;New Game&#39; 的按钮操作。" alt="" coords="247,5,357,32" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                alt="" coords="108,5,199,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="a7d213c086c617d3cc8b35b0abc1dc1f4"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a7d213c086c617d3cc8b35b0abc1dc1f4">&#9670;&nbsp;</a></span>display_text()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">void display_text </td>
+              <td>(</td>
+              <td class="paramtype">SDL_Renderer *&#160;</td>
+              <td class="paramname"><em>gRenderer</em>, </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">const char *&#160;</td>
+              <td class="paramname"><em>text</em>, </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">int&#160;</td>
+              <td class="paramname"><em>size</em>&#160;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>)</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>矩形框内居中绘制黑色文本 </p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">gRenderer</td>
+                  <td>游戏渲染器 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">size</td>
+                  <td>文本尺寸 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">text</td>
+                  <td>文本内容 </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="game_8c_source.html">game.c</a> 第 <a class="el"
+                                                                                                 href="game_8c_source.html#l00086">86</a> 行定义.</p>
+          <div class="dynheader">
+            函数调用图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_a7d213c086c617d3cc8b35b0abc1dc1f4_cgraph.png" border="0"
+                                     usemap="#game_8h_a7d213c086c617d3cc8b35b0abc1dc1f4_cgraph" alt="" /></div>
+            <map name="game_8h_a7d213c086c617d3cc8b35b0abc1dc1f4_cgraph"
+              id="game_8h_a7d213c086c617d3cc8b35b0abc1dc1f4_cgraph">
+              <area shape="rect" title="矩形框内居中绘制黑色文本" alt="" coords="5,31,108,57" />
+              <area shape="rect" href="game_8c.html#af33bfda60e57fefff8b247c4a08d92e3" title="矩形框内居中绘制文本" alt=""
+                    coords="156,5,243,32" />
+              <area shape="rect" href="game_8c.html#ab2c805f3fdadb0d569d82376ff16419a" title="清除窗口" alt=""
+                    coords="160,56,239,83" />
+            </map>
+          </div>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_a7d213c086c617d3cc8b35b0abc1dc1f4_icgraph.png" border="0"
+                                     usemap="#game_8h_a7d213c086c617d3cc8b35b0abc1dc1f4_icgraph" alt="" /></div>
+            <map name="game_8h_a7d213c086c617d3cc8b35b0abc1dc1f4_icgraph"
+              id="game_8h_a7d213c086c617d3cc8b35b0abc1dc1f4_icgraph">
+              <area shape="rect" title="矩形框内居中绘制黑色文本" alt="" coords="405,31,508,57" />
+              <area shape="rect" href="game_8h.html#ad2d47142ba9e822639bb8da8a68c5f31" title="本函数处理并绑定键盘操作" alt=""
+                coords="247,5,357,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,31,60,57" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                alt="" coords="108,5,199,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="a818bea26d1fb4ae684cc3976db112e86"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a818bea26d1fb4ae684cc3976db112e86">&#9670;&nbsp;</a></span>draw_button()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">void draw_button </td>
+              <td>(</td>
+              <td class="paramtype">SDL_Renderer *&#160;</td>
+              <td class="paramname"><em>gRenderer</em>, </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">unsigned char&#160;</td>
+              <td class="paramname"><em>matrix</em>[][SIZE], </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">TTF_Font *&#160;</td>
+              <td class="paramname"><em>font</em>&#160;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>)</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>绘制游戏按钮 </p>
+          <p>本函数底部角落处绘制 'New Game' 按钮。</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">gRenderer</td>
+                  <td>游戏渲染器 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">font</td>
+                  <td>按钮字体 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">matrix</td>
+                  <td>游戏矩阵. </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="game_8c_source.html">game.c</a> 第 <a class="el"
+                                                                                                 href="game_8c_source.html#l00156">156</a> 行定义.</p>
+          <div class="dynheader">
+            函数调用图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_a818bea26d1fb4ae684cc3976db112e86_cgraph.png" border="0"
+                                     usemap="#game_8h_a818bea26d1fb4ae684cc3976db112e86_cgraph" alt="" /></div>
+            <map name="game_8h_a818bea26d1fb4ae684cc3976db112e86_cgraph"
+              id="game_8h_a818bea26d1fb4ae684cc3976db112e86_cgraph">
+              <area shape="rect" title="绘制游戏按钮" alt="" coords="5,5,108,32" />
+              <area shape="rect" href="game_8c.html#aae2f5e78dae4b9eb5923a3bf129c38bf" title="矩形框内居中绘制白色文本" alt=""
+                    coords="156,5,287,32" />
+              <area shape="rect" href="game_8c.html#af33bfda60e57fefff8b247c4a08d92e3" title="矩形框内居中绘制文本" alt=""
+                    coords="335,5,421,32" />
+            </map>
+          </div>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_a818bea26d1fb4ae684cc3976db112e86_icgraph.png" border="0"
+                                     usemap="#game_8h_a818bea26d1fb4ae684cc3976db112e86_icgraph" alt="" /></div>
+            <map name="game_8h_a818bea26d1fb4ae684cc3976db112e86_icgraph"
+              id="game_8h_a818bea26d1fb4ae684cc3976db112e86_icgraph">
+              <area shape="rect" title="绘制游戏按钮" alt="" coords="403,5,505,32" />
+              <area shape="rect" href="game_8h.html#a99bae3e2bc3725f227ba6498d02a5d13" title="游戏渲染绘制" alt=""
+                coords="247,5,355,32" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                alt="" coords="108,5,199,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="a83a8dda9c516abcd8be12c018679eb00"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a83a8dda9c516abcd8be12c018679eb00">&#9670;&nbsp;</a></span>draw_matrix()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">void draw_matrix </td>
+              <td>(</td>
+              <td class="paramtype">SDL_Renderer *&#160;</td>
+              <td class="paramname"><em>gRenderer</em>, </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">unsigned char&#160;</td>
+              <td class="paramname"><em>matrix</em>[][SIZE], </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">TTF_Font *&#160;</td>
+              <td class="paramname"><em>font</em>&#160;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>)</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>绘制游戏棋盘. </p>
+          <p>本函数在游戏窗口中绘制大小为 SIZE*SIZE 游戏棋盘</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">gRenderer</td>
+                  <td>游戏渲染器 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">font</td>
+                  <td>文件字体 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">matrix</td>
+                  <td>游戏矩阵 </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="game_8c_source.html">game.c</a> 第 <a class="el"
+                                                                                                 href="game_8c_source.html#l00104">104</a> 行定义.</p>
+          <div class="dynheader">
+            函数调用图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_a83a8dda9c516abcd8be12c018679eb00_cgraph.png" border="0"
+                                     usemap="#game_8h_a83a8dda9c516abcd8be12c018679eb00_cgraph" alt="" /></div>
+            <map name="game_8h_a83a8dda9c516abcd8be12c018679eb00_cgraph"
+              id="game_8h_a83a8dda9c516abcd8be12c018679eb00_cgraph">
+              <area shape="rect" title="绘制游戏棋盘." alt="" coords="5,5,109,32" />
+              <area shape="rect" href="game_8c.html#aae2f5e78dae4b9eb5923a3bf129c38bf" title="矩形框内居中绘制白色文本" alt=""
+                    coords="157,5,288,32" />
+              <area shape="rect" href="game_8c.html#af33bfda60e57fefff8b247c4a08d92e3" title="矩形框内居中绘制文本" alt=""
+                    coords="336,5,423,32" />
+            </map>
+          </div>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_a83a8dda9c516abcd8be12c018679eb00_icgraph.png" border="0"
+                                     usemap="#game_8h_a83a8dda9c516abcd8be12c018679eb00_icgraph" alt="" /></div>
+            <map name="game_8h_a83a8dda9c516abcd8be12c018679eb00_icgraph"
+              id="game_8h_a83a8dda9c516abcd8be12c018679eb00_icgraph">
+              <area shape="rect" title="绘制游戏棋盘." alt="" coords="403,5,507,32" />
+              <area shape="rect" href="game_8h.html#a99bae3e2bc3725f227ba6498d02a5d13" title="游戏渲染绘制" alt=""
+                coords="247,5,355,32" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                alt="" coords="108,5,199,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="ab373140f8b3583c5349431e08a45b1ad"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#ab373140f8b3583c5349431e08a45b1ad">&#9670;&nbsp;</a></span>draw_score()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">void draw_score </td>
+              <td>(</td>
+              <td class="paramtype">SDL_Renderer *&#160;</td>
+              <td class="paramname"><em>gRenderer</em>, </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">unsigned char&#160;</td>
+              <td class="paramname"><em>matrix</em>[][SIZE], </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">TTF_Font *&#160;</td>
+              <td class="paramname"><em>font</em>&#160;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>)</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>绘制当前得分 </p>
+          <p>本函数将在游戏窗口绘制当前得分</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">gRenderer</td>
+                  <td>游戏渲染器 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">font</td>
+                  <td>文件字体 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">matrix</td>
+                  <td>游戏矩阵 </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="game_8c_source.html">game.c</a> 第 <a class="el"
+                                                                                                 href="game_8c_source.html#l00183">183</a> 行定义.</p>
+          <div class="dynheader">
+            函数调用图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_ab373140f8b3583c5349431e08a45b1ad_cgraph.png" border="0"
+                                     usemap="#game_8h_ab373140f8b3583c5349431e08a45b1ad_cgraph" alt="" /></div>
+            <map name="game_8h_ab373140f8b3583c5349431e08a45b1ad_cgraph"
+              id="game_8h_ab373140f8b3583c5349431e08a45b1ad_cgraph">
+              <area shape="rect" title="绘制当前得分" alt="" coords="5,31,101,57" />
+              <area shape="rect" href="core_8c.html#a6b38638513ffc6b882a896164d472b8b" title="分数计算" alt=""
+                    coords="153,5,276,32" />
+              <area shape="rect" href="game_8c.html#aae2f5e78dae4b9eb5923a3bf129c38bf" title="矩形框内居中绘制白色文本" alt=""
+                    coords="149,56,280,83" />
+              <area shape="rect" href="game_8c.html#af33bfda60e57fefff8b247c4a08d92e3" title="矩形框内居中绘制文本" alt=""
+                    coords="328,56,415,83" />
+            </map>
+          </div>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_ab373140f8b3583c5349431e08a45b1ad_icgraph.png" border="0"
+                                     usemap="#game_8h_ab373140f8b3583c5349431e08a45b1ad_icgraph" alt="" /></div>
+            <map name="game_8h_ab373140f8b3583c5349431e08a45b1ad_icgraph"
+              id="game_8h_ab373140f8b3583c5349431e08a45b1ad_icgraph">
+              <area shape="rect" title="绘制当前得分" alt="" coords="403,5,499,32" />
+              <area shape="rect" href="game_8h.html#a99bae3e2bc3725f227ba6498d02a5d13" title="游戏渲染绘制" alt=""
+                coords="247,5,355,32" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                alt="" coords="108,5,199,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="af33bfda60e57fefff8b247c4a08d92e3"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#af33bfda60e57fefff8b247c4a08d92e3">&#9670;&nbsp;</a></span>draw_text()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">void draw_text </td>
+              <td>(</td>
+              <td class="paramtype">SDL_Renderer *&#160;</td>
+              <td class="paramname"><em>gRenderer</em>, </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">TTF_Font *&#160;</td>
+              <td class="paramname"><em>font</em>, </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">const char *&#160;</td>
+              <td class="paramname"><em>text</em>, </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">SDL_Rect&#160;</td>
+              <td class="paramname"><em>rect</em>, </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">SDL_Color&#160;</td>
+              <td class="paramname"><em>color</em>&#160;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>)</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>矩形框内居中绘制文本 </p>
+          <p>当提供了指向gWindow和gRenderer指针的两个指针时， 本函数将用创建的window和renderer的值对其进行初始化。</p>
+          <p>如果初始化失败，本函数将会向stderr显示错误，但不退出。</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">gRenderer</td>
+                  <td>游戏渲染器 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">font</td>
+                  <td>文本字体 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">text</td>
+                  <td>文本内容 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">rect</td>
+                  <td>矩形框中写入文本的SDL_Rect对象 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">color</td>
+                  <td>文本颜色 </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="game_8c_source.html">game.c</a> 第 <a class="el"
+                                                                                                 href="game_8c_source.html#l00050">50</a> 行定义.</p>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_af33bfda60e57fefff8b247c4a08d92e3_icgraph.png" border="0"
+                                     usemap="#game_8h_af33bfda60e57fefff8b247c4a08d92e3_icgraph" alt="" /></div>
+            <map name="game_8h_af33bfda60e57fefff8b247c4a08d92e3_icgraph"
+              id="game_8h_af33bfda60e57fefff8b247c4a08d92e3_icgraph">
+              <area shape="rect" title="矩形框内居中绘制文本" alt="" coords="736,56,823,83" />
+              <area shape="rect" href="game_8h.html#a7d213c086c617d3cc8b35b0abc1dc1f4" title="矩形框内居中绘制黑色文本" alt=""
+                coords="406,5,509,32" />
+              <area shape="rect" href="game_8h.html#aae2f5e78dae4b9eb5923a3bf129c38bf" title="矩形框内居中绘制白色文本" alt=""
+                coords="557,81,688,108" />
+              <area shape="rect" href="game_8h.html#ad2d47142ba9e822639bb8da8a68c5f31" title="本函数处理并绑定键盘操作" alt=""
+                coords="247,56,357,83" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,31,60,57" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                alt="" coords="108,56,199,83" />
+              <area shape="rect" href="game_8h.html#a818bea26d1fb4ae684cc3976db112e86" title="绘制游戏按钮" alt=""
+                coords="406,107,509,133" />
+              <area shape="rect" href="game_8h.html#a83a8dda9c516abcd8be12c018679eb00" title="绘制游戏棋盘." alt=""
+                coords="405,157,509,184" />
+              <area shape="rect" href="game_8h.html#ab373140f8b3583c5349431e08a45b1ad" title="绘制当前得分" alt=""
+                coords="409,56,505,83" />
+              <area shape="rect" href="game_8h.html#a99bae3e2bc3725f227ba6498d02a5d13" title="游戏渲染绘制" alt=""
+                coords="248,107,356,133" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="aae2f5e78dae4b9eb5923a3bf129c38bf"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#aae2f5e78dae4b9eb5923a3bf129c38bf">&#9670;&nbsp;</a></span>draw_text_white()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">void draw_text_white </td>
+              <td>(</td>
+              <td class="paramtype">SDL_Renderer *&#160;</td>
+              <td class="paramname"><em>gRenderer</em>, </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">TTF_Font *&#160;</td>
+              <td class="paramname"><em>font</em>, </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">const char *&#160;</td>
+              <td class="paramname"><em>text</em>, </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">SDL_Rect&#160;</td>
+              <td class="paramname"><em>rect</em>&#160;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>)</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>矩形框内居中绘制白色文本 </p>
+          <p>与 draw_text(..., SDL_Color White) 作用相同</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">gRenderer</td>
+                  <td>游戏渲染器 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">font</td>
+                  <td>文本字体 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">text</td>
+                  <td>文本内容 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">rect</td>
+                  <td>矩形框中写入文本的SDL_Rect对象 </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="game_8c_source.html">game.c</a> 第 <a class="el"
+                                                                                                 href="game_8c_source.html#l00065">65</a> 行定义.</p>
+          <div class="dynheader">
+            函数调用图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_aae2f5e78dae4b9eb5923a3bf129c38bf_cgraph.png" border="0"
+                                     usemap="#game_8h_aae2f5e78dae4b9eb5923a3bf129c38bf_cgraph" alt="" /></div>
+            <map name="game_8h_aae2f5e78dae4b9eb5923a3bf129c38bf_cgraph"
+              id="game_8h_aae2f5e78dae4b9eb5923a3bf129c38bf_cgraph">
+              <area shape="rect" title="矩形框内居中绘制白色文本" alt="" coords="5,5,136,32" />
+              <area shape="rect" href="game_8c.html#af33bfda60e57fefff8b247c4a08d92e3" title="矩形框内居中绘制文本" alt=""
+                    coords="184,5,271,32" />
+            </map>
+          </div>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_aae2f5e78dae4b9eb5923a3bf129c38bf_icgraph.png" border="0"
+                                     usemap="#game_8h_aae2f5e78dae4b9eb5923a3bf129c38bf_icgraph" alt="" /></div>
+            <map name="game_8h_aae2f5e78dae4b9eb5923a3bf129c38bf_icgraph"
+              id="game_8h_aae2f5e78dae4b9eb5923a3bf129c38bf_icgraph">
+              <area shape="rect" title="矩形框内居中绘制白色文本" alt="" coords="555,56,685,83" />
+              <area shape="rect" href="game_8h.html#a818bea26d1fb4ae684cc3976db112e86" title="绘制游戏按钮" alt=""
+                coords="403,5,506,32" />
+              <area shape="rect" href="game_8h.html#a83a8dda9c516abcd8be12c018679eb00" title="绘制游戏棋盘." alt=""
+                coords="403,56,507,83" />
+              <area shape="rect" href="game_8h.html#ab373140f8b3583c5349431e08a45b1ad" title="绘制当前得分" alt=""
+                coords="407,107,503,133" />
+              <area shape="rect" href="game_8h.html#a99bae3e2bc3725f227ba6498d02a5d13" title="游戏渲染绘制" alt=""
+                coords="247,56,355,83" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                alt="" coords="108,56,199,83" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,56,60,83" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="a342d40610c1944fff2d2217279491ef5"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a342d40610c1944fff2d2217279491ef5">&#9670;&nbsp;</a></span>gameLoop()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">void gameLoop </td>
+              <td>(</td>
+              <td class="paramtype">unsigned char&#160;</td>
+              <td class="paramname"><em>matrix</em>[][SIZE], </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">SDL_Renderer *&#160;</td>
+              <td class="paramname"><em>gRenderer</em>&#160;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>)</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>这是主要的游戏循环，处理所有事件和绘画 </p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">gRenderer</td>
+                  <td>游戏渲染器 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">font</td>
+                  <td>文件字体 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">matrix</td>
+                  <td>游戏矩阵 </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="game_8c_source.html">game.c</a> 第 <a class="el"
+                                                                                                 href="game_8c_source.html#l00206">206</a> 行定义.</p>
+          <div class="dynheader">
+            函数调用图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_a342d40610c1944fff2d2217279491ef5_cgraph.png" border="0"
+                                     usemap="#game_8h_a342d40610c1944fff2d2217279491ef5_cgraph" alt="" /></div>
+            <map name="game_8h_a342d40610c1944fff2d2217279491ef5_cgraph"
+              id="game_8h_a342d40610c1944fff2d2217279491ef5_cgraph">
+              <area shape="rect" title="这是主要的游戏循环，处理所有事件和绘画" alt="" coords="5,335,96,361" />
+              <area shape="rect" href="game_8c.html#a4ebf14c06af7fc0efe266248a3d3deae"
+                title="处理 &#39;New Game&#39; 的按钮操作。" alt="" coords="144,411,255,437" />
+              <area shape="rect" href="game_8c.html#ad2d47142ba9e822639bb8da8a68c5f31" title="本函数处理并绑定键盘操作" alt=""
+                    coords="144,335,255,361" />
+              <area shape="rect" href="game_8c.html#a99bae3e2bc3725f227ba6498d02a5d13" title="游戏渲染绘制" alt=""
+                    coords="145,107,253,133" />
+              <area shape="rect" href="core_8c.html#a1f7a8949c839960fa20989f8eab4c8a6" title="向矩阵的随机位置添加一个值为1的值。" alt=""
+                    coords="478,373,581,400" />
+              <area shape="rect" href="core_8c.html#aab8569d2ebd3490f475e52f2b5bca620" title="清空矩阵" alt=""
+                    coords="307,512,411,539" />
+              <area shape="rect" href="game_8c.html#a7d213c086c617d3cc8b35b0abc1dc1f4" title="矩形框内居中绘制黑色文本" alt=""
+                    coords="308,208,411,235" />
+              <area shape="rect" href="core_8c.html#a63fab7d374b01bd85297485e9f6d09ec" title="检查棋盘上是否还有可能的移动。" alt=""
+                    coords="303,360,416,387" />
+              <area shape="rect" href="core_8c.html#ae51c3f35648c7ffc7d5158e921ee244e" title="在X方向上移动元素." alt=""
+                    coords="322,461,397,488" />
+              <area shape="rect" href="core_8c.html#aabdfe10f7aedf2e889c636791206ca61" title="在Y方向上移动元素." alt=""
+                    coords="322,259,397,285" />
+              <area shape="rect" href="game_8c.html#af33bfda60e57fefff8b247c4a08d92e3" title="矩形框内居中绘制文本" alt=""
+                    coords="643,145,729,172" />
+              <area shape="rect" href="game_8c.html#ab2c805f3fdadb0d569d82376ff16419a" title="清除窗口" alt=""
+                    coords="490,157,569,184" />
+              <area shape="rect" href="core_8c.html#a740c6e8c239e47d7e59edc221918ce64" title="合并X方向的元素" alt=""
+                    coords="490,449,569,476" />
+              <area shape="rect" href="core_8c.html#a9f2a400c6ed1ba5e8a7b6e2832bcd8aa" title="在X方向上移动矩阵。" alt=""
+                    coords="497,500,562,527" />
+              <area shape="rect" href="core_8c.html#a26174ee10f1a775e2b01caf2651bd1b1" title="合并Y方向的元素" alt=""
+                    coords="490,309,569,336" />
+              <area shape="rect" href="core_8c.html#a47d12115c591faffc1370615c3022314" title="在Y方向上移动矩阵。" alt=""
+                    coords="497,259,562,285" />
+              <area shape="rect" href="game_8c.html#a818bea26d1fb4ae684cc3976db112e86" title="绘制游戏按钮" alt=""
+                    coords="308,56,411,83" />
+              <area shape="rect" href="game_8c.html#a83a8dda9c516abcd8be12c018679eb00" title="绘制游戏棋盘." alt=""
+                    coords="307,107,411,133" />
+              <area shape="rect" href="game_8c.html#ab373140f8b3583c5349431e08a45b1ad" title="绘制当前得分" alt=""
+                    coords="311,5,407,32" />
+              <area shape="rect" href="game_8c.html#aae2f5e78dae4b9eb5923a3bf129c38bf" title="矩形框内居中绘制白色文本" alt=""
+                    coords="464,81,595,108" />
+              <area shape="rect" href="core_8c.html#a6b38638513ffc6b882a896164d472b8b" title="分数计算" alt=""
+                    coords="468,5,591,32" />
+            </map>
+          </div>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_a342d40610c1944fff2d2217279491ef5_icgraph.png" border="0"
+                                     usemap="#game_8h_a342d40610c1944fff2d2217279491ef5_icgraph" alt="" /></div>
+            <map name="game_8h_a342d40610c1944fff2d2217279491ef5_icgraph"
+              id="game_8h_a342d40610c1944fff2d2217279491ef5_icgraph">
+              <area shape="rect" title="这是主要的游戏循环，处理所有事件和绘画" alt="" coords="108,5,199,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="ad2d47142ba9e822639bb8da8a68c5f31"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#ad2d47142ba9e822639bb8da8a68c5f31">&#9670;&nbsp;</a></span>handle_move()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">void handle_move </td>
+              <td>(</td>
+              <td class="paramtype">SDL_Event&#160;</td>
+              <td class="paramname"><em>e</em>, </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">unsigned char&#160;</td>
+              <td class="paramname"><em>matrix</em>[][SIZE], </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">SDL_Renderer *&#160;</td>
+              <td class="paramname"><em>gRenderer</em>&#160;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>)</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>本函数处理并绑定键盘操作 </p>
+          <p>本函数根据键盘操作转换游戏矩阵</p>
+          <p>同时它还检查游戏是否已经完成， 若游戏结束，则重置棋盘，并绘制重新游戏屏幕。</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">gRenderer</td>
+                  <td>游戏渲染器 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">font</td>
+                  <td>文件字体 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">matrix</td>
+                  <td>游戏矩阵 </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="game_8c_source.html">game.c</a> 第 <a class="el"
+                                                                                                 href="game_8c_source.html#l00129">129</a> 行定义.</p>
+          <div class="dynheader">
+            函数调用图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_ad2d47142ba9e822639bb8da8a68c5f31_cgraph.png" border="0"
+                                     usemap="#game_8h_ad2d47142ba9e822639bb8da8a68c5f31_cgraph" alt="" /></div>
+            <map name="game_8h_ad2d47142ba9e822639bb8da8a68c5f31_cgraph"
+              id="game_8h_ad2d47142ba9e822639bb8da8a68c5f31_cgraph">
+              <area shape="rect" title="本函数处理并绑定键盘操作" alt="" coords="5,169,116,196" />
+              <area shape="rect" href="core_8c.html#a1f7a8949c839960fa20989f8eab4c8a6" title="向矩阵的随机位置添加一个值为1的值。" alt=""
+                    coords="325,245,428,272" />
+              <area shape="rect" href="core_8c.html#aab8569d2ebd3490f475e52f2b5bca620" title="清空矩阵" alt=""
+                    coords="169,93,273,120" />
+              <area shape="rect" href="game_8c.html#a7d213c086c617d3cc8b35b0abc1dc1f4" title="矩形框内居中绘制黑色文本" alt=""
+                    coords="169,43,272,69" />
+              <area shape="rect" href="core_8c.html#a63fab7d374b01bd85297485e9f6d09ec" title="检查棋盘上是否还有可能的移动。" alt=""
+                    coords="164,195,277,221" />
+              <area shape="rect" href="core_8c.html#ae51c3f35648c7ffc7d5158e921ee244e" title="在X方向上移动元素." alt=""
+                    coords="183,144,258,171" />
+              <area shape="rect" href="core_8c.html#aabdfe10f7aedf2e889c636791206ca61" title="在Y方向上移动元素." alt=""
+                    coords="183,296,258,323" />
+              <area shape="rect" href="game_8c.html#af33bfda60e57fefff8b247c4a08d92e3" title="矩形框内居中绘制文本" alt=""
+                    coords="333,56,420,83" />
+              <area shape="rect" href="game_8c.html#ab2c805f3fdadb0d569d82376ff16419a" title="清除窗口" alt=""
+                    coords="337,5,416,32" />
+              <area shape="rect" href="core_8c.html#a740c6e8c239e47d7e59edc221918ce64" title="合并X方向的元素" alt=""
+                    coords="337,169,416,196" />
+              <area shape="rect" href="core_8c.html#a9f2a400c6ed1ba5e8a7b6e2832bcd8aa" title="在X方向上移动矩阵。" alt=""
+                    coords="344,119,409,145" />
+              <area shape="rect" href="core_8c.html#a26174ee10f1a775e2b01caf2651bd1b1" title="合并Y方向的元素" alt=""
+                    coords="337,347,416,373" />
+              <area shape="rect" href="core_8c.html#a47d12115c591faffc1370615c3022314" title="在Y方向上移动矩阵。" alt=""
+                    coords="344,296,409,323" />
+            </map>
+          </div>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_ad2d47142ba9e822639bb8da8a68c5f31_icgraph.png" border="0"
+                                     usemap="#game_8h_ad2d47142ba9e822639bb8da8a68c5f31_icgraph" alt="" /></div>
+            <map name="game_8h_ad2d47142ba9e822639bb8da8a68c5f31_icgraph"
+              id="game_8h_ad2d47142ba9e822639bb8da8a68c5f31_icgraph">
+              <area shape="rect" title="本函数处理并绑定键盘操作" alt="" coords="247,5,357,32" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                alt="" coords="108,5,199,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="ac4a0c14184cf8d81655800a6ff947470"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#ac4a0c14184cf8d81655800a6ff947470">&#9670;&nbsp;</a></span>initSDL()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname"><a class="el" href="core_8h.html#af492d2bddcb2befacb3aa03dcdf9aafd">BOOL</a> initSDL
+              </td>
+              <td>(</td>
+              <td class="paramtype">SDL_Window **&#160;</td>
+              <td class="paramname"><em>gWindow</em>, </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">SDL_Renderer **&#160;</td>
+              <td class="paramname"><em>gRenderer</em>&#160;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>)</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>SDL 窗口初始化 </p>
+          <p>当提供了指向gWindow和gRenderer指针的两个指针时， 本函数将用创建的window和renderer的值对其进行初始化值。</p>
+          <p>如果初始化失败，本函数将会向stderr显示错误，但不退出。</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">gWindow</td>
+                  <td>游戏窗口. </td>
+                </tr>
+                <tr>
+                  <td class="paramname">gRenderer</td>
+                  <td>游戏渲染器 </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+          <dl class="section return">
+            <dt>返回</dt>
+            <dd>初始化是否成功 </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="game_8c_source.html">game.c</a> 第 <a class="el"
+                                                                                                 href="game_8c_source.html#l00015">15</a> 行定义.</p>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_ac4a0c14184cf8d81655800a6ff947470_icgraph.png" border="0"
+                                     usemap="#game_8h_ac4a0c14184cf8d81655800a6ff947470_icgraph" alt="" /></div>
+            <map name="game_8h_ac4a0c14184cf8d81655800a6ff947470_icgraph"
+              id="game_8h_ac4a0c14184cf8d81655800a6ff947470_icgraph">
+              <area shape="rect" title="SDL 窗口初始化" alt="" coords="108,5,176,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="a99bae3e2bc3725f227ba6498d02a5d13"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a99bae3e2bc3725f227ba6498d02a5d13">&#9670;&nbsp;</a></span>render_game()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">void render_game </td>
+              <td>(</td>
+              <td class="paramtype">SDL_Renderer *&#160;</td>
+              <td class="paramname"><em>gRenderer</em>, </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">unsigned char&#160;</td>
+              <td class="paramname"><em>matrix</em>[][SIZE], </td>
+            </tr>
+            <tr>
+              <td class="paramkey"></td>
+              <td></td>
+              <td class="paramtype">TTF_Font *&#160;</td>
+              <td class="paramname"><em>font</em>&#160;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>)</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>游戏渲染绘制 </p>
+          <p>本函数调用了 <a class="el" href="game_8h.html#ab2c805f3fdadb0d569d82376ff16419a" title="清除窗口">SDLclear()</a>,<a
+              class="el" href="game_8h.html#a83a8dda9c516abcd8be12c018679eb00" title="绘制游戏棋盘.">draw_matrix()</a>,<a
+              class="el" href="game_8h.html#ab373140f8b3583c5349431e08a45b1ad" title="绘制当前得分">draw_score()</a> 以及 <a
+              class="el" href="game_8h.html#a818bea26d1fb4ae684cc3976db112e86" title="绘制游戏按钮">draw_button()</a> 并进行渲染
+          </p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">gRenderer</td>
+                  <td>游戏渲染器 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">font</td>
+                  <td>文件字体 </td>
+                </tr>
+                <tr>
+                  <td class="paramname">matrix</td>
+                  <td>游戏矩阵 </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="game_8c_source.html">game.c</a> 第 <a class="el"
+                                                                                                 href="game_8c_source.html#l00197">197</a> 行定义.</p>
+          <div class="dynheader">
+            函数调用图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_a99bae3e2bc3725f227ba6498d02a5d13_cgraph.png" border="0"
+                                     usemap="#game_8h_a99bae3e2bc3725f227ba6498d02a5d13_cgraph" alt="" /></div>
+            <map name="game_8h_a99bae3e2bc3725f227ba6498d02a5d13_cgraph"
+              id="game_8h_a99bae3e2bc3725f227ba6498d02a5d13_cgraph">
+              <area shape="rect" title="游戏渲染绘制" alt="" coords="5,81,113,108" />
+              <area shape="rect" href="game_8c.html#a818bea26d1fb4ae684cc3976db112e86" title="绘制游戏按钮" alt=""
+                    coords="162,5,265,32" />
+              <area shape="rect" href="game_8c.html#a83a8dda9c516abcd8be12c018679eb00" title="绘制游戏棋盘." alt=""
+                    coords="161,56,265,83" />
+              <area shape="rect" href="game_8c.html#ab373140f8b3583c5349431e08a45b1ad" title="绘制当前得分" alt=""
+                    coords="165,107,261,133" />
+              <area shape="rect" href="game_8c.html#ab2c805f3fdadb0d569d82376ff16419a" title="清除窗口" alt=""
+                    coords="174,157,253,184" />
+              <area shape="rect" href="game_8c.html#aae2f5e78dae4b9eb5923a3bf129c38bf" title="矩形框内居中绘制白色文本" alt=""
+                    coords="313,56,444,83" />
+              <area shape="rect" href="game_8c.html#af33bfda60e57fefff8b247c4a08d92e3" title="矩形框内居中绘制文本" alt=""
+                    coords="492,56,579,83" />
+              <area shape="rect" href="core_8c.html#a6b38638513ffc6b882a896164d472b8b" title="分数计算" alt=""
+                    coords="317,107,440,133" />
+            </map>
+          </div>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_a99bae3e2bc3725f227ba6498d02a5d13_icgraph.png" border="0"
+                                     usemap="#game_8h_a99bae3e2bc3725f227ba6498d02a5d13_icgraph" alt="" /></div>
+            <map name="game_8h_a99bae3e2bc3725f227ba6498d02a5d13_icgraph"
+              id="game_8h_a99bae3e2bc3725f227ba6498d02a5d13_icgraph">
+              <area shape="rect" title="游戏渲染绘制" alt="" coords="247,5,355,32" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                alt="" coords="108,5,199,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="ab2c805f3fdadb0d569d82376ff16419a"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#ab2c805f3fdadb0d569d82376ff16419a">&#9670;&nbsp;</a></span>SDLclear()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">void SDLclear </td>
+              <td>(</td>
+              <td class="paramtype">SDL_Renderer *&#160;</td>
+              <td class="paramname"><em>gRenderer</em></td>
+              <td>)</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>清除窗口 </p>
+          <p>使用一种颜色填充屏幕</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">gRenderer</td>
+                  <td>游戏渲染器 </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="game_8c_source.html">game.c</a> 第 <a class="el"
+                                                                                                 href="game_8c_source.html#l00079">79</a> 行定义.</p>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_ab2c805f3fdadb0d569d82376ff16419a_icgraph.png" border="0"
+                                     usemap="#game_8h_ab2c805f3fdadb0d569d82376ff16419a_icgraph" alt="" /></div>
+            <map name="game_8h_ab2c805f3fdadb0d569d82376ff16419a_icgraph"
+              id="game_8h_ab2c805f3fdadb0d569d82376ff16419a_icgraph">
+              <area shape="rect" title="清除窗口" alt="" coords="556,56,635,83" />
+              <area shape="rect" href="game_8h.html#a7d213c086c617d3cc8b35b0abc1dc1f4" title="矩形框内居中绘制黑色文本" alt=""
+                coords="405,31,508,57" />
+              <area shape="rect" href="game_8h.html#a99bae3e2bc3725f227ba6498d02a5d13" title="游戏渲染绘制" alt=""
+                coords="248,81,356,108" />
+              <area shape="rect" href="game_8h.html#ad2d47142ba9e822639bb8da8a68c5f31" title="本函数处理并绑定键盘操作" alt=""
+                coords="247,31,357,57" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+              <area shape="rect" href="game_8h.html#a342d40610c1944fff2d2217279491ef5" title="这是主要的游戏循环，处理所有事件和绘画"
+                alt="" coords="108,31,199,57" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+      <a id="a6670a6a223093b2f83032e5a775ac3a4"></a>
+      <h2 class="memtitle"><span class="permalink"><a
+            href="#a6670a6a223093b2f83032e5a775ac3a4">&#9670;&nbsp;</a></span>SDLclose()</h2>
+
+      <div class="memitem">
+        <div class="memproto">
+          <table class="memname">
+            <tr>
+              <td class="memname">void SDLclose </td>
+              <td>(</td>
+              <td class="paramtype">SDL_Window *&#160;</td>
+              <td class="paramname"><em>gWindow</em></td>
+              <td>)</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div class="memdoc">
+
+          <p>关闭SDL窗口 </p>
+          <p>通过关闭SDL窗口来释放资源</p>
+          <dl class="params">
+            <dt>参数</dt>
+            <dd>
+              <table class="params">
+                <tr>
+                  <td class="paramname">gWindow</td>
+                  <td>游戏窗口 </td>
+                </tr>
+              </table>
+            </dd>
+          </dl>
+
+          <p class="definition">在文件 <a class="el" href="game_8c_source.html">game.c</a> 第 <a class="el"
+                                                                                                 href="game_8c_source.html#l00071">71</a> 行定义.</p>
+          <div class="dynheader">
+            这是这个函数的调用关系图:</div>
+          <div class="dyncontent">
+            <div class="center"><img src="game_8h_a6670a6a223093b2f83032e5a775ac3a4_icgraph.png" border="0"
+                                     usemap="#game_8h_a6670a6a223093b2f83032e5a775ac3a4_icgraph" alt="" /></div>
+            <map name="game_8h_a6670a6a223093b2f83032e5a775ac3a4_icgraph"
+              id="game_8h_a6670a6a223093b2f83032e5a775ac3a4_icgraph">
+              <area shape="rect" title="关闭SDL窗口" alt="" coords="108,5,189,32" />
+              <area shape="rect" href="game_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt=""
+                    coords="5,5,60,32" />
+            </map>
+          </div>
+
+        </div>
+      </div>
+    </div><!-- contents -->
+  </div><!-- doc-content -->
+  <!-- start footer part -->
+  <div id="nav-path" class="navpath">
+    <!-- id is needed for treeview function! -->
+    <ul>
+      <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>
+      <li class="navelem"><a class="el" href="game_8h.html">game.h</a></li>
+      <!--     <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li> -->
+    </ul>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+<map id="draw_score" name="draw_score">
+<area shape="rect" id="node1" title="绘制当前得分" alt="" coords="5,31,101,57"/>
+<area shape="rect" id="node2" href="$core_8c.html#a6b38638513ffc6b882a896164d472b8b" title="分数计算" alt="" coords="153,5,276,32"/>
+<area shape="rect" id="node3" href="$game_8c.html#aae2f5e78dae4b9eb5923a3bf129c38bf" title="矩形框内居中绘制白色文本" alt="" coords="149,56,280,83"/>
+<area shape="rect" id="node4" href="$game_8c.html#af33bfda60e57fefff8b247c4a08d92e3" title="矩形框内居中绘制文本" alt="" coords="328,56,415,83"/>
+</map>

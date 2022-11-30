@@ -1,0 +1,5 @@
+<map id="draw_matrix" name="draw_matrix">
+<area shape="rect" id="node1" title="绘制游戏棋盘." alt="" coords="5,5,109,32"/>
+<area shape="rect" id="node2" href="$game_8c.html#aae2f5e78dae4b9eb5923a3bf129c38bf" title="矩形框内居中绘制白色文本" alt="" coords="157,5,288,32"/>
+<area shape="rect" id="node3" href="$game_8c.html#af33bfda60e57fefff8b247c4a08d92e3" title="矩形框内居中绘制文本" alt="" coords="336,5,423,32"/>
+</map>

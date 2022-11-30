@@ -1,0 +1,10 @@
+<map id="render_game" name="render_game">
+<area shape="rect" id="node1" title="游戏渲染绘制" alt="" coords="5,81,113,108"/>
+<area shape="rect" id="node2" href="$game_8c.html#a818bea26d1fb4ae684cc3976db112e86" title="绘制游戏按钮" alt="" coords="162,5,265,32"/>
+<area shape="rect" id="node5" href="$game_8c.html#a83a8dda9c516abcd8be12c018679eb00" title="绘制游戏棋盘." alt="" coords="161,56,265,83"/>
+<area shape="rect" id="node6" href="$game_8c.html#ab373140f8b3583c5349431e08a45b1ad" title="绘制当前得分" alt="" coords="165,107,261,133"/>
+<area shape="rect" id="node8" href="$game_8c.html#ab2c805f3fdadb0d569d82376ff16419a" title="清除窗口" alt="" coords="174,157,253,184"/>
+<area shape="rect" id="node3" href="$game_8c.html#aae2f5e78dae4b9eb5923a3bf129c38bf" title="矩形框内居中绘制白色文本" alt="" coords="313,56,444,83"/>
+<area shape="rect" id="node4" href="$game_8c.html#af33bfda60e57fefff8b247c4a08d92e3" title="矩形框内居中绘制文本" alt="" coords="492,56,579,83"/>
+<area shape="rect" id="node7" href="$core_8c.html#a6b38638513ffc6b882a896164d472b8b" title="分数计算" alt="" coords="317,107,440,133"/>
+</map>
